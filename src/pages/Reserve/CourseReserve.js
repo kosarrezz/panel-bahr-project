@@ -8,6 +8,7 @@ import {
   sendReserveToCourseApi,
   getCourseReserveByIdApi 
 } from "../../services/reserve/courseReserveService";
+import ReseveState from "../../pages/reserve/ReserveState"
 
 const CourseReserve = () => {
   const [searchTerm, setsearchTerm] = useState("");
@@ -210,6 +211,7 @@ const handleOpenDetail = async (reserveId, courseId) => {
 
   return (
     <>
+    <ReseveState />
       <div className="d-flex justify-content-between align-items-center mb-2">
         <div>
           <h4 className="mb-0 fw-bolder">Course Reserves</h4>

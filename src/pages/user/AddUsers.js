@@ -18,7 +18,7 @@ import {
 // ** Third Party Components
 import { useForm, Controller } from "react-hook-form";
 import toast from "react-hot-toast";
-import {createUsers} from "../../services/user/user-service"
+import {createUsers} from "../../services/user/user-services"
 import { useNavigate } from "react-router-dom";
 
 // ** Styles

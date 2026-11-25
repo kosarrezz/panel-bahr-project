@@ -38,10 +38,10 @@ const EditCourse = lazy(() => import("../../pages/courses/EditCourse"));
 const Users = lazy (() => import ("../../pages/user/Users"));
 const AddUsers = lazy (() => import ("../../pages/user/AddUsers"));
   const EditUsers = lazy (() => import("../../pages/user/EditUsers"));
-const News = lazy (() => import("../../pages/news/News"))
-const AddNews = lazy (() => import("../../pages/news/AddNews"))
-const EditNews = lazy (() => import("../../pages/news/EditNews"))
-const CourseReserve = lazy (() => import("../../pages/Reserve/CourseReserve"))
+const News = lazy (() => import("../../pages/news/News"));
+const AddNews = lazy (() => import("../../pages/news/AddNews"));
+const EditNews = lazy (() => import("../../pages/news/EditNews"));
+const CourseReserve = lazy (() => import("../../pages/reserve/CourseReserve"))
 
 // ** Merge Routes   const AddCourse = lazy(() => import("../../pages/AddCourse"));
 

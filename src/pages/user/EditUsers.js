@@ -16,7 +16,7 @@ import {
 // ** Third Party Components
 import { useForm, Controller } from "react-hook-form";
 import toast from "react-hot-toast";
-import { updateUser, getUserListApi } from "../../services/user/user-service";
+import { updateUser, getUserListApi } from "../../services/user/user-services";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
